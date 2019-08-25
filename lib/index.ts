@@ -2,6 +2,7 @@ exports = module.exports = require("./redis").default;
 
 export { default } from "./redis";
 export { default as Cluster } from "./cluster";
+export { default as ShardedCluster } from "./shardedCluster";
 export { default as Command } from "./command";
 export { default as ScanStream } from "./ScanStream";
 export { default as Pipeline } from "./pipeline";
